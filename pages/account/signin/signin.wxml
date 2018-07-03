@@ -1,0 +1,14 @@
+<view class="container">
+	<view class="">
+		<input id="username" type="text" name="" placeholder="Email or Phonenumber"/>
+	</view>
+	<view>
+		<input id="password" type="password" name="" placeholder="password" password="true"/>
+	</view>
+	<view>
+		<input id="password" type="password" name="" placeholder="password" password="true"/>
+	</view>
+	<view>
+		<button>登录</button>
+	</view>
+</view>
