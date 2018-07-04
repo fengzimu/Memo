@@ -1,0 +1,44 @@
+.container{
+	flex-direction:column;
+}
+
+.userinfoInput{
+	width: 208px;
+    height: 46px;
+    border-radius: 20px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    opacity: 0.5;
+    transition: none;
+    margin-top:12px;
+}
+
+.loginBtn{
+	width: 208px;
+    height: 46px;
+    background-color: rgb(51, 54, 67);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    text-align: center;
+    line-height: 46px;
+    opacity: 0.8;
+    transition: none;
+}
+
+.forgetPassNav{
+	width: 61px;
+    height: 23px;
+    font-size: 12px;
+    border-width: 0px;
+    border-style: solid;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.3;
+    transition: none;
+}
