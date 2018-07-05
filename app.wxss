@@ -1,4 +1,6 @@
 /**app.wxss**/
+@import "pages/templates/HeaderBar.wxss";
+@import "pages/templates/FootBar.wxss";
 .container {
   height: 100%;
   display: flex;

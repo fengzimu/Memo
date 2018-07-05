@@ -1,0 +1,6 @@
+<template name="search">
+  	<view class="search_bar_container">
+		<icon class="search_bar_icon" type="search" size="14"></icon>
+		<input type="text" class="search_bar_input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+	</view>
+</template>

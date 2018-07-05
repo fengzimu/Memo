@@ -1,0 +1,5 @@
+<template name="create">
+  	<view>
+		<image class="addNoteImg" src="../../images/icons/add_note.png" mode="scaleToFill"></image>
+	</view>
+</template>
