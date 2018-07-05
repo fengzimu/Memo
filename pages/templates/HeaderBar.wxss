@@ -1,0 +1,8 @@
+.search_bar_container{
+	position: absolute;
+	top: 0;
+}
+
+.search_bar_icon{
+	display: inline-block;
+}

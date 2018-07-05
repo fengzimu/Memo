@@ -1,0 +1,10 @@
+<import src="../../templates/HeaderBar.wxml"/>
+<import src="../../templates/FootBar.wxml"/>
+<view class="container">
+	<block>
+    	<template is="search"></template>
+	</block>
+	<block>
+    	<template is="create"></template>
+	</block>
+</view>
