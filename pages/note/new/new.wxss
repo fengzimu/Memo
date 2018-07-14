@@ -1,0 +1,21 @@
+.create_note_container{
+	margin: 0 1rem;
+}
+
+.title_input{
+	border-bottom: 1px solid rgba(211,211,211,0.5);
+	padding-bottom: 12px;
+}
+
+.section_view{
+	margin-top: 20px;
+}
+
+.time{
+	margin-left: 0.5rem;
+	opacity: 0.3;
+}
+
+.time-font{
+	font-size:80%;
+}

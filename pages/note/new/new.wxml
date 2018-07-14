@@ -1,0 +1,12 @@
+<view class="create_note_container">
+	<view>
+		<text class="time-font">{{dateTime}}</text>
+		<text class="time time-font">{{dayTime}}</text>
+	</view>
+	<view class="section_view"> 
+		<input type="text" class="title_input" cursor-spacing="20px" placeholder="{{Note_NewNote_Title}}" placeholder-style="opacity: 0.5; font-weight: bold;"/>
+	</view>
+	<view class="section_view">
+		<textarea placeholder="{{Note_NewNote_Content}}" cursor-spacing="20px" placeholder-style="color:#D3D3D3; font-size: 80%;"></textarea>
+	</view>
+</view>

@@ -1,12 +1,18 @@
 /**app.wxss**/
 @import "pages/templates/HeaderBar.wxss";
 @import "pages/templates/FootBar.wxss";
+
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 200rpx 0;
+	box-sizing: border-box;
 } 
+
+.contentContainer {
+	height: 100%;
+	margin: 0 1rem;
+}
