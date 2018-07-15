@@ -1,14 +1,16 @@
 <view class="container">
-	<view class="">
-		<input id="username" class="userinfoInput" type="text" name="" placeholder="Email"/>
-	</view>
-	<view>
-		<input id="password" class="userinfoInput" type="password" name="" placeholder="password" password="true"/>
-	</view>
-	<view>
-		 <navigator url="" class="forgetPassNav">忘记密码</navigator>
-	</view>
-	<view>
-		<button class="loginBtn">登录</button>
+	<view class="signinContainer">
+		<view>
+			<input id="username" class="userinfoInput" type="text" name="" placeholder="Email"/>
+		</view>
+		<view>
+			<input id="password" class="userinfoInput" type="password" name="" placeholder="password" password="true"/>
+		</view>
+		<view class="sectionContainer">
+			 <navigator url="" class="forgetPassNav">{{Signin_Forgot_Password}}</navigator>
+		</view>
+		<view class="sectionContainer">
+			<button class="loginBtn">{{Signin_Btn_Login}}</button>
+		</view>
 	</view>
 </view>

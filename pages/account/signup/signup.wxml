@@ -1,0 +1,13 @@
+<view class="container">
+	<view class="signupContainer">
+		<view>
+			<input id="username" class="userinfoInput" type="text" name="" placeholder="Email"/>
+		</view>
+		<view>
+			<input id="password" class="userinfoInput" type="password" name="" placeholder="password" password="true"/>
+		</view>
+		<view class="sectionContainer">
+			<button class="registerBtn">{{Signup_Btn_Register}}</button>
+		</view>
+	</view>
+</view>

@@ -1,5 +1,10 @@
+var oI18n = require('../../../utils/I18n_CH.js');
+
 Page({
-  data: {},
-  onLoad: function() {
-  }
+  	data: oI18n.i18n,
+  	onLoad: function() {
+  		wx.setNavigationBarTitle({
+      		title: oI18n.i18n.Signin_Header,
+    	})
+  	}
 })
