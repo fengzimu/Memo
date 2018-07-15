@@ -7,10 +7,10 @@
 			<input id="password" class="userinfoInput" type="password" name="" placeholder="password" password="true"/>
 		</view>
 		<view class="sectionContainer">
-			 <navigator url="" class="forgetPassNav">{{Signin_Forgot_Password}}</navigator>
+			 <navigator url="" class="forgetPassNav">{{signin_forgot_password}}</navigator>
 		</view>
 		<view class="sectionContainer">
-			<button class="loginBtn">{{Signin_Btn_Login}}</button>
+			<button class="loginBtn">{{signin_btn_login}}</button>
 		</view>
 	</view>
 </view>

@@ -1,0 +1,14 @@
+<view class="wx-container">
+  <view class="wx-dialog">
+    <view class="wx-dialog-header-content">
+      <view class="wx-dialog-title">{{title}}</view>
+      <view class="wx-dialog-content">
+      	<input type="text" name="" placeholder="{{placeholder}}" value="{{value}}" />
+      </view>
+    </view>
+    <view class="wx-dialog-footer">
+    	<button>{{cancelText}}</button>
+    	<button disabled="true">{{confirmText}}</button>
+    </view>
+  </view>
+</view>

@@ -7,7 +7,7 @@
 			<input id="password" class="userinfoInput" type="password" name="" placeholder="password" password="true"/>
 		</view>
 		<view class="sectionContainer">
-			<button class="registerBtn">{{Signup_Btn_Register}}</button>
+			<button class="registerBtn">{{signup_btn_register}}</button>
 		</view>
 	</view>
 </view>

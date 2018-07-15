@@ -1,0 +1,9 @@
+<view class="container">
+  <dialog id='editCategoryDialog'
+  	title='{{catogry_edit_dialog_title}}'
+  	value='123'
+  	cancelText='{{common_cancel}}'
+  	confirmText='{{common_ok}}'>
+  </dialog>
+</view>
+ 

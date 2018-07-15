@@ -4,7 +4,7 @@ Page({
   	data: oI18n.i18n,
   	onLoad: function() {
   		wx.setNavigationBarTitle({
-      		title: oI18n.i18n.Signin_Header,
+      		title: oI18n.i18n.signin_header,
     	})
   	}
 })

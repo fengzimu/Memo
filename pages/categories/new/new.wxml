@@ -1,0 +1,9 @@
+<view class="container">
+  <dialog id='createCategoryDialog'
+  	title='{{catogry_create_dialog_title}}'
+  	placeholder='{{catogry_create_dialog_placeholder}}'
+  	cancelText='{{common_cancel}}'
+  	confirmText='{{common_ok}}'>
+  </dialog>
+</view>
+ 

@@ -1,11 +1,16 @@
 const i18n = {
-	Signup_Header: '注册',
-	Signup_Btn_Register: '注册',
-	Signin_Header: '登录',
-	Signin_Btn_Login: '登录',
-	Signin_Forgot_Password: '忘记密码',
-	Note_NewNote_Title: '标题',
-	Note_NewNote_Content: '如果你想到什么，那么就记录下来'
+	common_cancel: '取消',
+	common_ok: '确定',
+	signup_header: '注册',
+	signup_btn_register: '注册',
+	signin_header: '登录',
+	signin_btn_login: '登录',
+	signin_forgot_password: '忘记密码',
+	catogry_create_dialog_title: '新建记事本',
+	catogry_create_dialog_placeholder: '新建记事本',
+	catogry_edit_dialog_title: '重命名记事本',
+	note_create_note_title: '标题',
+	note_create_note_content: '如果你想到什么，那么就记录下来'
 }
 
 module.exports = {
